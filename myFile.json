@@ -1,0 +1,110 @@
+[
+    {
+        "planet": "Mercury",
+        "moons": 0,
+        "diameter": 4879,
+        "distanceFromSun": 57.9,
+        "colours": {
+            "colour1":"#e7e8ec",
+            "colour2":"#b1adad",
+            "colour3":"#68696d"
+          },
+        "speed": 88
+    },
+    {
+        "planet": "Venus",
+        "moons": 0,
+        "diameter": 12104,
+        "distanceFromSun": 108.2,
+        "colours": {
+            "colour1":"#a57c1b",
+            "colour2":"#e39e1c",
+            "colour3":"#e7d520"
+          },
+          "speed": 224.7
+    },
+    {
+        "planet": "Earth",
+        "moons": 1,
+        "diameter": 12756,
+        "distanceFromSun": 149.6,
+        "colours": {
+            "colour1":"#5292ff",
+            "colour2":"#5f8321",
+            "colour3":"#dbf3ff"
+          },
+          "speed": 365
+    },
+    {
+        "planet": "Mars",
+        "moons": 0,
+        "diameter": 6792,
+        "distanceFromSun": 227.9,
+        "colours": {
+            "colour1":"#451804",
+            "colour2":"#c1440e",
+            "colour3":"#e77d11"
+          },
+          "speed": 686.93
+    },
+    {
+        "planet": "Jupiter",
+        "moons": 67,
+        "diameter": 142984,
+        "distanceFromSun": 778.6,
+        "colours": {
+            "colour1":"#ebf3f6",
+            "colour2":"#e3dccb",
+            "colour3":"#d8ca9d"
+          },
+          "speed": 4330.6
+    },
+    {
+        "planet": "Saturn",
+        "moons": 62,
+        "diameter": 120536,
+        "distanceFromSun": 1433.5,
+        "colours": {
+            "colour1":"#ceb8b8",
+            "colour2":"#ead6b8",
+            "colour3":"#e3e0c0"
+          },
+        "speed": 10755.7 
+    },
+    {
+        "planet": "Uranus",
+        "moons": 27,
+        "diameter": 51118,
+        "distanceFromSun": 2872.5,
+        "colours": {
+            "colour1":"#e1eeee",
+            "colour2":"#d1e7e7",
+            "colour3":"#c6d3e3"
+          },
+        "speed": 30687
+    },
+    {
+        "planet": "Neptune",
+        "moons": 14,
+        "diameter": 49528,
+        "distanceFromSun": 4495.1,
+        "colours": {
+            "colour1":"#5b5ddf",
+            "colour2":"#274687",
+            "colour3":"#85addb"
+          },
+          "speed": 60190
+    },
+    {
+        "planet": "Pluto(Dwarf-Planet)",
+        "moons": 5,
+        "diameter": 2370,
+        "distanceFromSun": 5906.4,
+        "colours": {
+            "colour1":"#fff1d5",
+            "colour2":"#968570",
+            "colour3":"#f6ddbd"
+          },
+        "speed": 90520
+    }
+]

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+  <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+  <script src="JS/p5.min.js"></script>
+  <script src="addons/p5.dom.min.js"></script>
+  <script src="addons/p5.sound.min.js"></script>
+  <script src="JS/sketch.js"></script>
+</head>
+
+<body>
+
+  <div id="leftLabels">
+    <div id="nameLabel">Planet Name:</div>
+    <div id="sizeLabel">Planet Diameter (km): </div>
+    <div id="distanceLabel">Distance From Sun (1000 km): </div>
+    <div id="speedLabel">Days to Orbit: </div>
+    <div id="colourLabel">Colours: </div>
+    <br>
+    <br>
+    <div id="moonsLabel">Number of Moons: </div>
+
+  </div>
+  <div id="rightInputs">
+    <div id="planetname"> <input type="text" name="planetName"></div>
+    <div id="size"> <input type="number" name="size"></div>
+    <div id="distance"> <input type="number" name="distance"></div>
+    <div id="speed"> <input type="number" name="speed"></div>
+    <div id="colour1"> <input type="color" name="colour1"></div>
+    <div id="colour2"> <input type="color" name="colour2"></div>
+    <div id="colour3"> <input type="color" name="colour3"></div>
+    <div id="moons"> <input type="number" name="moons"></div>
+    <button id="createButton" onclick="AddPlanet()" type="button">Create</button>
+  </div>
+
+  <div id="speedButtons">
+    <button class="speedButton" onclick="DecreaseSpeed()" type="button">-</button>
+    <button class="speedButton" onclick="PauseSpeed()" type="button">||</button>
+    <button class="speedButton" onclick="IncreaseSpeed()" type="button">+</button>
+  </div>
+
+  <div>
+    <button id="toggleButton" onclick="ToggleColourScheme()" type="button">Toggle Colour Scheme</button>
+  </div>
+
+</body>
+
+</html>
